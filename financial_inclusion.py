@@ -11,7 +11,7 @@ age = st.slider("Age", 16, 100)
 gender = st.selectbox("Gender", ["Male", "Female"])
 job_type = st.selectbox("Job Type", ["Self employed", "Formally employed", ...])
 
-# Create input DataFrame (preprocessed format!)
+# Create input DataFrame (preprocessed format)
 input_data = ...
 
 if st.button("Predict"):
